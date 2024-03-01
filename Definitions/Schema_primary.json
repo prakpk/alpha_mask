@@ -1,0 +1,113 @@
+{
+    "checkout": {
+      "theme": {
+        "color": "blue",
+        "font": "Raleway"
+      },
+      "cart": {
+        "display": true,
+        "items": [
+          {
+            "id": "product-1",
+            "name": "T-Shirt",
+            "image": "t-shirt.png",
+            "price": 19.99,
+            "quantity": 1,
+            "size": "M",
+            "color": "red",
+            "discount": {
+              "type": "percentage",
+              "value": 10
+            }
+          },
+          {
+            "id": "product-2",
+            "name": "Cap",
+            "image": "cap.png",
+            "price": 15.99,
+            "quantity": 2,
+            "size": "One Size",
+            "color": "black",
+            "discount": {
+              "type": "fixed",
+              "value": 5
+            }
+          }
+        ]
+      },
+      "payment": {
+        "methods": [
+          {
+            "type": "credit_card",
+            "displayName": "Credit Card"
+          },
+          {
+            "type": "paypal",
+            "displayName": "PayPal"
+          },
+          {
+            "type": "google_pay",
+            "displayName": "Google Pay"
+          }
+        ],
+        "currency": "USD"
+      },
+      "confirmation": {
+        "successMessage": "Thank you for your purchase!",
+        "emailReceipt": true
+      }
+    },
+    "uiComponents": {
+      "header": {
+        "title": "Checkout",
+        "logoUrl": "logo.png",
+        "logoAltText": "Company Logo"
+      },
+      "footer": {
+        "displayText": "Need help? Contact us",
+        "linkUrl": "/support"
+      }
+    },
+    "formFields": {
+      "customerDetails": [
+        {
+          "fieldType": "text",
+          "label": "Full Name",
+          "placeholder": "Enter your full name",
+          "isRequired": true
+        },
+        {
+          "fieldType": "email",
+          "label": "Email Address",
+          "placeholder": "Enter your email",
+          "isRequired": true
+        }
+      ],
+      "shippingDetails": [
+        {
+          "fieldType": "dropdown",
+          "label": "Shipping Method",
+          "options": ["Standard", "Express", "Overnight"],
+          "isRequired": true
+        },
+        {
+          "fieldType": "radio",
+          "label": "Gift Wrap",
+          "options": [
+            {"label": "Yes", "value": "yes"},
+            {"label": "No", "value": "no"}
+          ],
+          "isRequired": false
+        }
+      ],
+      "paymentDetails": {
+        "discountCode": {
+          "fieldType": "text",
+          "label": "Discount Code",
+          "placeholder": "Enter discount code",
+          "helpText": "If you have a discount code, enter it here."
+        }
+      }
+    }
+  }
+  

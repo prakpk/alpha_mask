@@ -1,0 +1,166 @@
+{
+  "checkoutConfig": {
+    "languageSelection": {
+      "type": "dropdown",
+      "options": ["English", "Spanish", "French"],
+      "default": "English"
+    },
+    "currencySelection": {
+      "type": "dropdown",
+      "options": ["USD", "EUR", "GBP"],
+      "default": "USD"
+    },
+    "header": {
+      "type": "container",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    },
+    "logo": {
+      "type": "image",
+      "src": "",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    },
+    "customerName": {
+      "type": "text",
+      "content": "",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    },
+    "unitCounter": {
+      "type": "counter",
+      "default": 1,
+      "min": 1,
+      "max": 10,
+      "discountThreshold": 5,
+      "discountPercentage": 10
+    },
+    "planSelection": {
+      "type": "buttons",
+      "options": [
+        {
+          "label": "Standard",
+          "value": "standard"
+        },
+        {
+          "label": "Pro",
+          "value": "pro"
+        }
+      ],
+      "default": "standard",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    },
+    "productDisplay": {
+      "productImage": {
+        "type": "image",
+        "src": ""
+      },
+      "productName": {
+        "type": "text",
+        "content": ""
+      }
+    },
+    "timelineDetails": {
+      "type": "accordion",
+      "items": [
+        {
+          "title": "Free Trial Period",
+          "content": "A detailed description of the trial period.",
+          "additionalOptions": {
+            "trialLength": 30,
+            "trialUnit": "days"
+          }
+        }
+      ]
+    },
+    "paymentOptions": {
+      "type": "paymentSelector",
+      "options": [
+        {
+          "method": "creditCard",
+          "displayName": "Credit Card"
+        },
+        {
+          "method": "paypal",
+          "displayName": "PayPal"
+        }
+      ]
+    },
+    "billingDetails": {
+      "billingFrequency": {
+        "type": "dropdown",
+        "options": ["Monthly", "Yearly"],
+        "default": "Monthly"
+      },
+      "autoRenewal": {
+        "type": "checkbox",
+        "label": "Auto-renew subscription"
+      }
+    },
+    "totalCostDisplay": {
+      "type": "totalCost",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    },
+    "termsAndConditions": {
+      "type": "link",
+      "url": "/terms",
+      "text": "Read terms and conditions"
+    },
+    "checkoutButton": {
+      "type": "button",
+      "text": "Checkout Now",
+      "style": {
+        "padding": "10px 15px",
+        "fontSize": "16px",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      },
+      "mobileStyles": {
+        "padding": "14px 20px",
+        "fontSize": "18px"
+      }
+    }
+  }
+}
