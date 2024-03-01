@@ -1,0 +1,25 @@
+[
+  { "id": "00", "Category": "0-ASSETS", "Type": "Fixed Assets", "Mar 2022": "₹5,27,376", "Feb 2022": "₹5,29,813", "Variance ₹": "-₹2,438", "Variance %": "-0.46%", "Common Size": "9%" },
+  { "id": "01", "Category": "0-ASSETS", "Type": "Investments or Other Non-Current Assets", "Mar 2022": "₹1,55,657", "Feb 2022": "₹1,55,657", "Variance ₹": "₹0", "Variance %": "0%", "Common Size": "3%" },
+  { "id": "02", "Category": "0-ASSETS", "Type": "Total Non-Current Assets", "Mar 2022": "₹6,83,032", "Feb 2022": "₹6,85,470", "Variance ₹": "-₹2,438", "Variance %": "-0.36%", "Common Size": "12%" },
+  { "id": "03", "Category": "0-ASSETS", "Type": "Accounts Receivable", "Mar 2022": "₹26,08,613", "Feb 2022": "₹27,97,964", "Variance ₹": "-₹1,89,350", "Variance %": "-6.77%", "Common Size": "45%" },
+  { "id": "04", "Category": "0-ASSETS", "Type": "Inventory", "Mar 2022": "₹19,93,991", "Feb 2022": "₹21,02,334", "Variance ₹": "-₹1,08,342", "Variance %": "-5.15%", "Common Size": "35%" },
+  { "id": "05", "Category": "0-ASSETS", "Type": "Other Current Assets", "Mar 2022": "₹4,88,894", "Feb 2022": "₹3,72,150", "Variance ₹": "₹1,16,744", "Variance %": "31.37%", "Common Size": "8%" },
+  { "id": "06", "Category": "0-ASSETS", "Type": "Total Current Assets", "Mar 2022": "₹50,91,498", "Feb 2022": "₹52,72,447", "Variance ₹": "-₹1,80,949", "Variance %": "-3.43%", "Common Size": "88%" },
+  { "id": "07", "Category": "0-ASSETS", "Type": "Total Assets", "Mar 2022": "₹57,74,531", "Feb 2022": "₹59,57,917", "Variance ₹": "-₹1,83,386", "Variance %": "-3.08%", "Common Size": "100%" },
+  { "id": "08", "Category": "1-LIABILITIES", "Type": "Short Term Debt", "Mar 2022": "₹29,15,169", "Feb 2022": "₹29,74,553", "Variance ₹": "-₹59,384", "Variance %": "-2%", "Common Size": "50%" },
+  { "id": "09", "Category": "1-LIABILITIES", "Type": "Accounts Payable", "Mar 2022": "₹19,12,923", "Feb 2022": "₹21,27,785", "Variance ₹": "-₹2,14,862", "Variance %": "-10.1%", "Common Size": "33%" },
+  { "id": "10", "Category": "1-LIABILITIES", "Type": "Tax Liability", "Mar 2022": "₹8,674", "Feb 2022": "₹8,674", "Variance ₹": "₹0", "Variance %": "0%", "Common Size": "0%" },
+  
+    { "id": "11", "Category": "1-LIABILITIES", "Type": "Other Current Liabilities", "Mar 2022": "₹4,15,066", "Feb 2022": "₹3,81,013", "Variance ₹": "₹34,053", "Variance %": "8.94%", "Common Size": "7%" },
+    { "id": "12", "Category": "1-LIABILITIES", "Type": "Total Current Liabilities", "Mar 2022": "₹52,51,832", "Feb 2022": "₹54,92,025", "Variance ₹": "-₹2,40,193", "Variance %": "-4.37%", "Common Size": "91%" },
+    { "id": "13", "Category": "1-LIABILITIES", "Type": "Long Term Debt", "Mar 2022": "₹6,87,283", "Feb 2022": "₹6,87,283", "Variance ₹": "₹0", "Variance %": "0%", "Common Size": "12%" },
+    { "id": "14", "Category": "1-LIABILITIES", "Type": "Total Non-Current Liabilities", "Mar 2022": "₹6,87,283", "Feb 2022": "₹6,87,283", "Variance ₹": "₹0", "Variance %": "0%", "Common Size": "12%" },
+    { "id": "15", "Category": "1-LIABILITIES", "Type": "Total Liabilities", "Mar 2022": "₹59,39,116", "Feb 2022": "₹61,79,309", "Variance ₹": "-₹2,40,193", "Variance %": "-3.89%", "Common Size": "103%" },
+    { "id": "16", "Category": "2-EQUITY", "Type": "Retained Earnings", "Mar 2022": "₹7,84,664", "Feb 2022": "₹7,44,260", "Variance ₹": "₹40,404", "Variance %": "5.43%", "Common Size": "14%" },
+    { "id": "17", "Category": "2-EQUITY", "Type": "Other Equity", "Mar 2022": "-₹13,21,942", "Feb 2022": "-₹13,38,345", "Variance ₹": "₹16,403", "Variance %": "1.23%", "Common Size": "-23%" },
+    { "id": "18", "Category": "2-EQUITY", "Type": "Total Other Equity", "Mar 2022": "-₹9,49,249", "Feb 2022": "-₹9,65,652", "Variance ₹": "₹16,403", "Variance %": "1.7%", "Common Size": "-16%" },
+    { "id": "19", "Category": "2-EQUITY", "Type": "Total Equity", "Mar 2022": "-₹1,64,585", "Feb 2022": "-₹2,21,392", "Variance ₹": "₹56,807", "Variance %": "25.66%", "Common Size": "-3%" },
+    { "id": "20", "Category": "3-NET ASSETS", "Type": "Net Assets", "Mar 2022": "-₹1,64,585", "Feb 2022": "-₹2,21,392", "Variance ₹": "₹56,807", "Variance %": "25.66%", "Common Size": "-3%" }
+  ]
+  

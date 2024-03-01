@@ -1,0 +1,19 @@
+/*! ../public/assets/Successsuccess.svg */
+
+/*! ./App.css */
+
+/*! ./index.css */
+
+/*! ./slices/paymentSlice */
+
+/*! react */
+
+/*! react-redux */
+
+/*!***************************!*\
+  !*** ./src/Completion.js ***!
+  \***************************/
+
+/*!******************************************!*\
+  !*** ./public/assets/Successsuccess.svg ***!
+  \******************************************/
